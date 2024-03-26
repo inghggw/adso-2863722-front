@@ -1,0 +1,73 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-color: black;
+}
+
+.f-row {
+	flex-direction: row;
+	display: flex;
+}
+
+.f-column {
+	flex-direction: column;
+	display: flex;
+}
+
+.f-1 {
+	flex: 1;
+}
+
+.f-2 {
+	flex: 2;
+}
+
+.f-3{
+	flex:3;
+}
+
+.bg-gray {
+	background-color: gray;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-aqua {
+	background-color: aquamarine;
+}
+
+.bg-yellow {
+	background-color: yellow;
+}
+
+.bg-green {
+	background-color: greenyellow;
+}
+
+.bg-orange{
+	background-color: orange;
+}
+
+.bg-pink{
+	background-color: pink;
+}
+
+.bg-blue{
+	background-color: blue;
+}
+
+.f-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.f-1-15 {
+	flex: 1 0 15%;
+}
+
+.m-1 {
+	margin: 1em;
+}

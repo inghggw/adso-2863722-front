@@ -1,0 +1,22 @@
+body {
+	background-color: yellow;
+}
+
+div {
+	height: 200px;
+	margin-bottom: 1cm;
+}
+
+.cuadroOscuro {
+	width: 50%;
+	background: black;
+}
+
+#cuadroClaro {
+	width: 90%;
+	background-color: lightgray;
+}
+
+.borde {
+	border: 4px dotted orangered;
+}
