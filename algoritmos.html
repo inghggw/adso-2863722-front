@@ -10,15 +10,29 @@
 	<script>
 		var number1 = 10;
 		let number2 = 20;
+		let message1 = "The addition between ";
+		let message2 = "The substraction between ";
+		let message3 = "The product between ";
+		let message4 = "The quotient between ";
+
 		let message = "The result is: ";
 		//alert(number1);
 
-		let result = number1 + number2;
+		let addition = number1 + number2;
+		let substraction = number2 - number1;
+		let product = number1 * number2;
+		let quotient= number2/number1
+
+		console.log(message1 + number1 + " and " + number2 + " is " + addition);
+		//COMILLA GRAVE O BACKTICK
+		console.log(`${message2} ${number2} and ${number1} is ${substraction}`);
+		console.log(message3 + number2 + " and " + number1 + " is " + product);
+		console.log(message4 + number2 + " and " + number1 + " is " + quotient);
 		let result2 = message + (number1 + number2);
 
-		console.log(message, result);
+		/*console.log(message, result);
 		console.log(result2);
-		console.log(message + result);
+		console.log(message + result);*/ 
 	</script>
 </body>
 </html>
